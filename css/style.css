@@ -1,0 +1,557 @@
+*{
+    margin: 0px ; padding: 0px; font-family: sans-serif; box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+
+    background:  azure;
+}
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+
+#menu {
+    width: 100%;
+    background: #01194e;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: #407171;
+}
+
+
+
+#menu a {
+    color: #8984a7;
+    display:  inline-block;
+    padding:  5px 0;
+}
+
+#menu a:hover{
+    color: #8984a7c4;
+}
+
+#footer {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    background: #01194e;
+    text-align:  center;
+}
+
+#footer span{
+    color: #8984a7;
+    font-size: 12px;
+}
+
+.content {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+#user {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+#menu #button-cart {
+    float: right;
+    margin-right:  10px;
+    background: #8984a7;
+    padding: 5px 10px;
+    border-radius:  3px;
+}
+
+#menu #button-cart:hover{
+    background: #8984a7c4;
+}
+
+#menu #button-cart img {
+    vertical-align:  bottom;
+}
+
+#register-user {
+    margin: 20px auto;
+    width: 550px;
+    border: 1px solid #ccc;
+    padding:  20px;
+    background:  red;
+    color: white;
+}
+
+.el-form {
+    margin-bottom: 20px;
+}
+
+.el-form label {
+    display:  block;
+    font-weight:  bold;
+}
+
+.el-form span {
+    display:  block;
+}
+
+.el-form input[type='text'], .el-form input[type='password'], .el-form textarea, .el-form select {
+    width: 100%;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.el-form input[type='submit'] {
+    width: 50%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    background: #4305D1;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+.el-form input[type='submit']:hover{
+    background: #380AA2;
+}
+#provinsi {
+    width: 100%;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+span.is_title {
+    display:  block;
+    font-weight: bold;
+    width: 550px;
+    background:  red;
+    padding: 10px;
+    text-align:  center;
+    color: white;
+    text-transform:  uppercase;
+    margin: 0 auto;
+}
+
+.errors{
+    color: yellow;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#bg-page-profile {
+    overflow:  hidden;
+}
+
+#menu-profile {
+    float:  left;
+    width: 20%;
+    background: #004dff;
+}
+
+#menu-profile ul li a {
+    display:  block;
+    color: white;
+    padding: 10px 20px;
+}
+
+#menu-profile ul li a:hover,
+#menu-profile ul li a.active {
+    background: darkslateblue;
+}
+
+#profile-content {
+    float:  left;
+    width: 80%;
+    padding: 10px;
+    background:  white;
+}
+
+.el-form #button {
+    margin: 0;
+    width: auto;
+}
+
+#frame-tambah{
+    text-align: right;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.tombol-action {
+    background: #004dff;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.tombol-action:hover{
+    background: #483d8b;
+}
+
+.table-list {
+    width: 100%;
+    border-collapse:  collapse;
+}
+
+.table-list tr{
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+}
+
+.table-list .table-row{
+    background: #D1D0D0;
+}
+
+.table-list tr th{
+    font-weight: bold;
+}
+
+.table-list tr th,
+.table-list tr td {
+    padding: 10px 7px;
+}
+
+.number{
+    width: 20px;
+}
+
+.left {
+    text-align:  left;
+}
+
+.middle {
+    text-align:  center;
+}
+
+.right {
+    text-align: right;
+}
+
+#left {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+#menu-kategori ul li {
+    margin-bottom:  5px;
+}
+
+#menu-kategori ul li a {
+    display:  block;
+    padding: 10px;
+    background: #01194e;
+    color: #ddbcfb;
+}
+
+#menu-kategori ul li a:hover,
+#menu-kategori ul li a.active {
+    background: #1b3571;
+}
+
+
+#right {
+    width: 80%;
+    padding-left: 15px;
+    height:  auto;
+    float:  left;
+}
+
+#right #frame-barang ul {
+    overflow:  hidden;
+}
+
+#right #frame-barang ul li {
+    width:  30%;
+    background:  #ffffff;
+    padding: 10px 15px;
+    margin: 0 15px 15px 15px;
+    float: left;
+    transition: all 0.2s ease-in;
+}
+
+#right #frame-barang ul li:hover {
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+}
+
+#right #frame-barang ul li .price{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#right #frame-barang ul li a img{
+    display: block;
+}
+
+#right #frame-barang ul li .keterangan-gambar {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0px;
+    font-size: 14px;
+    height: 100px;
+}
+
+#right #frame-barang ul li .keterangan-gambar p{
+    text-align: center;
+    margin: 5px 0px
+}
+
+#right #frame-barang ul li .keterangan-gambar p a{
+    font-weight: bold;
+}
+
+#right #frame-barang ul li .keterangan-gambar span {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#right #frame-barang ul li .btn-add-cart{
+    text-align: center;
+}
+
+#right #frame-barang ul li .btn-add-cart a{
+    background: blueviolet;
+    padding: 5px 10px;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+#right #frame-barang ul li .btn-add-cart a:hover{
+    background: blue;
+} 
+
+#slides img{
+    width: 100%;
+}
+
+#detail-barang {
+    background: #e2f928;
+    padding: 15px;
+}
+
+#detail-barang h2 {
+    margin-top: 0px;
+    margin-bottom:  10px;
+    color: #961313;
+    text-decoration:  underline;
+}
+
+#detail-barang #frame-barang {
+    background: #fdf3fa;
+    padding: 20px;
+}
+
+#detail-barang #frame-barang img {
+    vertical-align:  middle;
+    margin: 10px auto;
+    display:  block;
+}
+
+#detail-barang #frame-harga {
+    margin: 20px 0px;
+}
+
+#detail-barang #frame-harga span {
+    font-size: 18px;
+    font-weight:  bold;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #961313;
+    color: #961313;
+}
+
+#detail-barang #frame-harga a {
+    background: #1c1b80;
+    color: #e2f928;
+    padding:  5px 10px;
+    border-radius:  3px;
+    display:  inline-block;
+    float: right;
+}
+
+#detail-barang #frame-harga a:hover{
+    background: #01194e
+}
+
+#detail-barang #keterangan {
+    text-align: justify;
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+#detail-barang #keterangan .judul{
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    display: block;
+}
+
+.total-barang{
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.update-qty {
+    text-align: center;
+    width: 25px;
+}
+
+.baris-title th {
+    background:  orange;
+    color: white;
+}
+
+.middle.delete_item {
+    position:  relative;
+}
+
+.middle.delete_item a {
+    position:  absolute;
+    top: 0;
+    right: 0;
+    color: red;
+}
+
+#frame-btn-cart a {
+    background: blueviolet;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 10px;
+    margin-top: 15px;
+}
+
+#lanjut-belanja {
+    float: left;
+}
+
+#lanjut-pemesanan {
+    float: right;
+}
+
+#lanjut-belanja:hover , #lanjut-pemesanan:hover {
+    background: blue;
+}
+
+#frame-form-pengiriman {
+    
+border: 2px solid #ccc;
+    
+padding: 25px;
+}
+
+#frame-data-pengiriman {
+    width:  44%;
+    margin-left:  3%;
+    margin-right:  3%;
+    float: left;
+}
+
+#frame-detail-order {
+    border: 2px solid #ccc;
+}
+
+#frame-data-detail {
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+}
+
+.label-data {
+    margin: 0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background: red;
+}
+
+#frame-faktur h3 {
+    margin-bottom:  10px;
+}
+
+#frame-faktur table {
+    margin-top: 20px;
+}
+
+#frame-faktur tr {
+    line-height: 25px;
+}
+
+#keterangan-pembayaran {
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+ul.pagination {
+    margin:  15px 0 0 0;
+}
+
+ul.pagination li {
+    float:  left;
+}
+
+ul.pagination li a {
+    padding: 6px;
+    margin-right: 5px;
+    border:  1px solid blue;
+    font-size: 12px;
+}
+
+ul.pagination li a:hover,
+ul.pagination li a.active {
+    font-weight: bold;
+    background: blue;
+    color: #fff;
+}
+
+#frame-tambah #kiri {
+    float: left;
+}
+
+#frame-tambah #kanan {
+    float: right;
+}
+
+#frame-tambah #kiri input[type="submit"] {
+    outline:  none;
+    padding: 5px 10px;
+    background:  blue;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+#frame-tambah #kiri input[type="submit"]:hover {
+    background: #483d8b;
+    cursor: pointer;
+}
+
+#frame-tambah #kiri input[type="text"] {
+    height: 25px;
+    border: 2px solid #d2cbcb;
+}
